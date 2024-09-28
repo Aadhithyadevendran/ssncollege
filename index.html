@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <div class="head">
+        <div style="margin-left: 20px;">
+            <h2 id="h3" class="one">Trxvl.</h2>
+        </div>
+        <div class="none">
+            <p class="one">Home</p>
+            <p class="one">About</p>
+            <p class="one ">Pages</p>
+            <p class="one ">Packages</p>
+            <p class="one ">Contact Us</p>
+
+
+
+        </div>
+
+    </div>
+    <header>
+        <div class="header-container">
+            <div class="sub">
+            <div style="    margin-top: 10%;">
+                <h2 style="font-size: 50px;"><strong>Welcome!</strong></h2>
+                <h2 style="font-size: 30px;">Exploring the world</h2>
+            </div>
+
+
+            <div class="search-box">
+                <input type="text" placeholder="Search for destinations,Check-in,Check-out">
+                <button>Search</button>
+            </div>
+        </div>
+
+
+        </div>
+        </div>
+    </header>
+    <div class="travel-icons">
+        <h2>Top Categories</h2>
+        <div class="icona">
+            <div>
+                <box-icon type='solid' name='plane-alt'></box-icon>
+                <p>flight</p>
+            </div>
+            <div>
+                <box-icon name='hotel' type='solid' class="name"></box-icon>
+                <p>Hotel</p>
+            </div>
+            <div>
+                <box-icon name='train' type='solid'></box-icon>
+                <p>Train</p>
+            </div>
+            <div>
+                <box-icon name='ship' type='solid'></box-icon>
+                <p>Ship</p>
+            </div>
+            <div>
+                <box-icon name='globe'></box-icon>
+                <p>Globe</p>
+            </div>
+            <div>
+                <box-icon name='camera' type='solid'></box-icon>
+                <p>Camera</p>
+            </div>
+        </div>
+
+        <section class="packages">
+            <h2>Popular Beach & Desert Destinations</h2>
+            <div class="package-box">
+                <div class="box" onclick="flipBox(this)">
+                    <div class="box-inner">
+                        <div class="box-front">
+                            <img src="./New folder/maldives.jpg" alt="Beach">
+                            <h3>Maldives</h3>
+                            <p>5 days for $1200</p>
+                            <p>Experience the beautiful beaches and luxury resorts.</p>
+                            <button>Book Now</button>
+
+                        </div>
+                        <div class="box-back">
+                            <h3>Maldives</h3>
+                            <p>The Maldives is a tropical paradise in the Indian Ocean, renowned for its stunning coral islands, white sandy beaches, and crystal-clear waters. It's famous for luxury resorts, vibrant marine life, and rich biodiversity, making it a top destination for snorkeling, diving, and relaxation.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="box" onclick="flipBox(this)">
+                    <div class="box-inner">
+                        <div class="box-front">
+                            <img src="./New folder/saha.jpg" alt="Desert">
+                            <h3>Sahara</h3>
+                            <p>4 days for $800</p>
+                            <p>Explore the vast desert landscapes.</p>
+                            <button>Book Now</button>
+
+
+                        </div>
+                        <div class="box-back">
+                            <h3>Sahara</h3>
+                            <p>Explore the vast desert landscapes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" onclick="flipBox(this)">
+                    <div class="box-inner">
+                        <div class="box-front">
+                            <img src="./New folder/bora.jpg" alt="Beach">
+                            <h3>Bora Bora</h3>
+                            <p>7 days for $1500</p>
+                            <p>Relax on the stunning turquoise beaches.</p>
+                            <button>Book Now</button>
+
+
+                        </div>
+                        <div class="box-back">
+                            <h3>Bora Bora</h3>
+                            <p>Relax on the stunning turquoise beaches.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="packages">
+            <h2>Recently Viewed</h2>
+            <div class="package-box">
+                <div class="box" onclick="flipBox(this)">
+                    <div class="box-inner">
+                        <div class="box-front">
+                            <img src="./New folder/new york.jpg" alt="City">
+                            <h3>New York</h3>
+                            <p>3 days for $600</p>
+                            <p>Experience the vibrant city life.</p>
+                            <button>Book Now</button>
+
+
+                        </div>
+                        <div class="box-back">
+                            <h3>New York</h3>
+                            <p>Experience the vibrant city life.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box" onclick="flipBox(this)">
+                    <div class="box-inner">
+                        <div class="box-front">
+                            <img src="./New folder/swis.jpg" alt="Mountain">
+                            <h3>Swiss Alps</h3>
+                            <p>6 days for $1800</p>
+                            <p>Marvel at the stunning mountain views.</p>
+                            <button>Book Now</button>
+
+
+                        </div>
+                        <div class="box-back">
+                            <h3>Swiss Alps</h3>
+                            <p>The Swiss Alps are a stunning mountain range in Switzerland, renowned for their breathtaking landscapes, snow-capped peaks, and world-class ski resorts. A popular destination for outdoor enthusiasts, they offer activities like skiing, hiking, and mountaineering, as well as picturesque villages and pristine natural beauty year-round.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" onclick="flipBox(this)">
+                    <div class="box-inner">
+                        <div class="box-front">
+                            <img src="./New folder/rome.jpg" alt="Rome">
+                            <h3>Rome</h3>
+                            <p>4 days for $1100</p>
+                            <p>Explore the historical wonders of Rome.</p>
+                            <button>Book Now</button>
+
+
+                        </div>
+                        <div class="box-back">
+                            <h3>Rome</h3>
+                            <p>Explore the historical wonders of Rome.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="packages">
+            <h2>All Packages</h2>
+            <div class="package-box">
+                
+                <div class="box" onclick="flipBox(this)">
+                    <div class="box-inner">
+                        <div class="box-front">
+                            <img src="./New folder/paris.jpg" alt="Paris">
+                            <h3>Paris</h3>
+                            <p>5 days for $1300</p>
+                            <p>Visit the city of lights and love.</p>
+                            <button>Book Now</button>
+
+
+                        </div>
+                        <div class="box-back">
+                            <h3>Paris</h3>
+                            <p>Paris, the capital of France, is renowned for its rich history, iconic landmarks like the Eiffel Tower, Notre-Dame, and Louvre Museum. Known as the "City of Light," it's a global center for art, fashion, and culture, offering charming streets, world-class cuisine, and a romantic atmosphere.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" onclick="flipBox(this)">
+                    <div class="box-inner">
+                        <div class="box-front">
+                            <img src="./New folder/rome.jpg" alt="Rome">
+                            <h3>Rome</h3>
+                            <p>4 days for $1100</p>
+                            <p>Explore the historical wonders of Rome.</p>
+                            <button>Book Now</button>
+
+
+                        </div>
+                        <div class="box-back">
+                            <h3>Rome</h3>
+                            <p>Explore the historical wonders of Rome.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" onclick="flipBox(this)">
+                    <div class="box-inner">
+                        <div class="box-front">
+                            <img src="./New folder/tokyo.jpg" alt="Tokyo">
+                            <h3>Tokyo</h3>
+                            <p>6 days for $1600</p>
+                            <p>Immerse yourself in the vibrant culture of Japan.</p>
+                            <button>Book Now</button>
+
+
+                        </div>
+                        <div class="box-back">
+                            <h3>Tokyo</h3>
+                            <p>Immerse yourself in the vibrant culture of Japan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="packages">
+            <h2>Honeymoon Trips</h2>
+            <div class="package-box">
+                <div class="box" onclick="flipBox(this)">
+                    <div class="box-inner">
+                        <div class="box-front">
+                            <img src="./New folder/thrla.jpg" alt="Paradise">
+                            <h3>Bali</h3>
+                            <p>7 days for $1400</p>
+                            <p>Enjoy a romantic getaway on this tropical island.</p>
+                            <button>Book Now</button>
+
+
+                        </div>
+                        <div class="box-back">
+                            <h3>Bali</h3>
+                            <p>Enjoy a romantic getaway on this tropical island.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" onclick="flipBox(this)">
+                    <div class="box-inner">
+                        <div class="box-front">
+                            <img src="./New folder/swis.jpg" alt="Mountain">
+                            <h3>Swiss Alps</h3>
+                            <p>6 days for $1800</p>
+                            <p>Marvel at the stunning mountain views.</p>
+                            <button>Book Now</button>
+
+
+                        </div>
+                        <div class="box-back">
+                            <h3>Swiss Alps</h3>
+                            <p>Marvel at the stunning mountain views.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" onclick="flipBox(this)">
+                    <div class="box-inner">
+                        <div class="box-front">
+                            <img src="./New folder/hawai.jpg" alt="Island">
+                            <h3>Hawaii</h3>
+                            <p>6 days for $1300</p>
+                            <p>Relax on the stunning beaches of Hawaii.</p>
+                            <button>Book Now</button>
+
+
+                        </div>
+                        <div class="box-back">
+                            <h3>Hawaii</h3>
+                            <p>Relax on the stunning beaches of Hawaii.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div style="display: flex; width: 100%; justify-content: space-around;">
+            <div class="footer-box">
+                <h3>Contact Us</h3>
+                <p>Email: travel@explore.com</p>
+                <p>Phone: +1234567890</p>
+            </div>
+            <div class="footer-box">
+                <h3>Follow Us</h3>
+                <box-icon type='logo' name='facebook'></box-icon>
+                <box-icon name='instagram-alt' type='logo'></box-icon>
+                <box-icon name='twitter' type='logo'></box-icon>
+            </div>
+            <div class="footer-box">
+                <h3>Address</h3>
+                <p>123 Travel Street, Adventure City</p>
+            </div>
+            <div class="footer-box">
+                <h3>Help</h3>
+                <p>FAQ | Support</p>
+            </div>
+        </div>
+            <div class="search-box">
+                <input type="text" style="width: 200px;" placeholder="Queries">
+                <button>Search</button>
+            </div>
+        </footer>
+        
+
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script>
+            function flipBox(box) {
+                box.classList.toggle('flipped');
+            }
+        </script>
+</body>
+
+</html>
